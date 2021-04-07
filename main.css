@@ -52,43 +52,17 @@ header {
 .picture-1>img {
   width: 238px;
 } 
+
 .description {
    position: absolute;
-  /* top: 12%;
-  right: -13%; */
   transform: rotate(90deg);
+  transform-origin: top left;
   font-family: 'PT Serif', sans-serif;
   font-weight: 400;
   font-size: 12px;
+  left: 272px;
+   width: 200px;
 }
-.saba {
-  right: -10%;
-  top: 9%;
-  color: red;
-}
-.shae {
-  right: -6%;
-  top: 6%;
-  color: yellow;
-}
-.skylah {
-  color: purple;
-  right: -9%;
-  top: 8%;
-}
-.griff {
-  color: green;
-  right: -7%;
-  top: 7%;
-
-}
-.stan {
-  color: orangered;
-  right: -6%;
-  top: 7%;
-
-}
-
 .picture-1:nth-child(2) {
   position: relative;
   top: 3rem;
@@ -115,7 +89,6 @@ footer {
   font-weight: 700;
   font-size: 14px;
 }  
-
 
 
 @media screen and (max-width: 768px) {
@@ -154,15 +127,14 @@ footer {
   .first {
     display: flex;
     flex-direction: row;
-    width: 310px;
-    /* margin-left: 1rem; */
+    
 
   }
   .picture-1 {
     position: relative;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 45%;
     height: 10rem;
     margin-top: 3rem;
   } 
@@ -170,34 +142,8 @@ footer {
     width: 100px;
   } 
   .description {
-    font-weight: 400;
     font-size: 10px;
-    /* top: 22%;
-    right: -10px; */
-  }
-  .bill {
-    right: -8%;
-    top: 22%;
-  }
-  .saba {
-    right: -3%;
-    top: 16%;
-  }
-  .shae {
-    right: 3%;
-    top: 12%;
-  }
-  .skylah {
-    right: -2%;
-    top: 17%;
-  }
-  .griff {
-    right: 0%;
-    top: 13%;
-  }
-  .stan {
-    right: 0%;
-    top: 14%;
+    left: 125px;
   }
 
   .p-name {
@@ -207,15 +153,16 @@ footer {
   .picture-1:nth-child(5) {
     top: -2rem;
   }
-   /* footer {
+    footer {
     width: 100%;
+    margin-top: 4rem;
+  
   } 
   footer>p {
-  
     font-size: 11px;
     width: 287px;
-    
-  }*/
+    padding-bottom: 1rem;
+  }
  
 
 
