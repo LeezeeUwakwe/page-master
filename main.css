@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.text-1 {
+  width: 40%;
+} 
+.text-1>h1 {
+  font-family: 'PT Serif', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+}
+.text-2 {
+ width: 40%;
+ font-family: 'Poppins', sans-serif;
+
+}
+.text-2>h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.text-2>p {
+  margin-top: 0.5rem;
+  width: 430px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ .picture-1 {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 30%;
+  margin-top: 5rem;
+} 
+.picture-1>img {
+  width: 238px;
+} 
+.description {
+   position: absolute;
+  /* top: 12%;
+  right: -13%; */
+  transform: rotate(90deg);
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.saba {
+  right: -10%;
+  top: 9%;
+  color: red;
+}
+.shae {
+  right: -6%;
+  top: 6%;
+  color: yellow;
+}
+.skylah {
+  color: purple;
+  right: -9%;
+  top: 8%;
+}
+.griff {
+  color: green;
+  right: -7%;
+  top: 7%;
+
+}
+.stan {
+  color: orangered;
+  right: -6%;
+  top: 7%;
+
+}
+
+.picture-1:nth-child(2) {
+  position: relative;
+  top: 3rem;
+}
+.picture-1:nth-child(5) {
+  position: relative;
+  top: 3rem;
+}
+.p-name {
+  padding-top: 0.5rem;
+  font-family:'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+} 
+footer {
+  width: 100%;
+  display: block;
+  margin-top: 6rem;
+}
+
+ footer>p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}  
+
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+    .text-1 {
+    width: 100%;
+  }
+  .text-1>h1 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .text-2{
+    width: 100%;
+    margin-top: 1.5rem;
+    font-size: 34px;
+  }  
+  .text-2>h2 {
+    font-size: 16px;
+    font-weight: 600;
+  } 
+  .text-2>p {
+    font-size: 14px;
+    font-weight: 600;
+     width: 300px;
+  }
+  
+  .first {
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    /* margin-left: 1rem; */
+
+  }
+  .picture-1 {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 10rem;
+    margin-top: 3rem;
+  } 
+  .picture-1>img {
+    width: 100px;
+  } 
+  .description {
+    font-weight: 400;
+    font-size: 10px;
+    /* top: 22%;
+    right: -10px; */
+  }
+  .bill {
+    right: -8%;
+    top: 22%;
+  }
+  .saba {
+    right: -3%;
+    top: 16%;
+  }
+  .shae {
+    right: 3%;
+    top: 12%;
+  }
+  .skylah {
+    right: -2%;
+    top: 17%;
+  }
+  .griff {
+    right: 0%;
+    top: 13%;
+  }
+  .stan {
+    right: 0%;
+    top: 14%;
+  }
+
+  .p-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .picture-1:nth-child(5) {
+    top: -2rem;
+  }
+   /* footer {
+    width: 100%;
+  } 
+  footer>p {
+  
+    font-size: 11px;
+    width: 287px;
+    
+  }*/
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
